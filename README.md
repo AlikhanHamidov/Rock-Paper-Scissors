@@ -1,7 +1,6 @@
 # Rock-Paper-Scissors
 # The goal of this project is to develop a Rock-Paper-Scissors game where a user can play against a computer opponent. The game will follow standard rules and will be implemented using Python.
-# Author  
-# Name: Alikhan Hamidov  
+# Author: Alikhan Hamidov  
 # Student ID: 74408404862
 ## Project Plan  
 # The project consists of the following tasks:
