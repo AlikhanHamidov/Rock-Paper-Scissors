@@ -1,0 +1,19 @@
+Test Сase: User Input Validation in Rock-Paper-Scissors Game
+
+Objective:
+
+Ensure that the program correctly handles user input by accepting only valid choices and rejecting invalid ones.
+
+-The program should accept only the inputs: "rock", "paper", "scissors"
+-Any other inputs should be rejected.
+
+User inputs "rock" - True
+User inputs "paper" - True
+User inputs "scissors" - True
+User inputs "Rock" - True
+User inputs "PAPER" - True
+User inputs "ScIsSoRs" - True
+User inputs "stone" - False
+User inputs "123" - False
+User inputs "" - False
+User inputs "rock123" - False
