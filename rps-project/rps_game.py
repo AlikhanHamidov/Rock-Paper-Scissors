@@ -61,13 +61,4 @@ class TestRPSGame(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-git init
-git add .
-git commit -m "Initial commit: game logic + full test coverage""
 
-git remote add origin https://github.com/AlikhanHamidov/Rock-Paper-Scissors.git
-
-git branch -M main
-git push -u origin main
-s
-reseet
