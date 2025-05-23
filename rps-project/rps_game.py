@@ -1,25 +1,3 @@
-import random
-
-choices = ["rock", "paper", "scissors"]
-
-def get_computer_choice():
-    return random.choice(choices)
-
-def is_valid_choice(user_input):
-    if not isinstance(user_input, str):
-        return False
-    return user_input.strip().lower() in choices
-
-def decide_winner(user, comp):
-    if user == comp:
-        return "tie"
-    elif (user == "rock" and comp == "scissors") or \
-         (user == "paper" and comp == "rock") or \
-         (user == "scissors" and comp == "paper"):
-        return "win"
-    else:
-        return "lose"
-cat > test_rps.py
 import unittest
 from rps_game import decide_winner, get_computer_choice, is_valid_choice
 
